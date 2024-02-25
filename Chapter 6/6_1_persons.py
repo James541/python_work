@@ -1,12 +1,23 @@
-person_info = {
+people = [
+    {
     'first_name': 'James',
     'last_name': 'Wagner',
     'age': 43,
-    'current_city': 'Medford', 
-}
+    'current_city': 'Medford',
+    },
+    {
+    'first_name': 'Joey',
+    'last_name': 'Joe-Joe',
+    'age': 31,
+    'current_city': 'Seattle',
+    },
+    {
+    'first_name': 'Monty',
+    'last_name': 'Burns',
+    'age': 110,
+    'current_city': 'Springfield',
+    },
+    ]
 
-print(person_info['first_name'])
-print(person_info['last_name'])
-print(person_info['age'])
-print(person_info['current_city'])
-
+for person in people:
+    print(f'{person['first_name']} {person['last_name']} is {person['age']} years old and lives in {person['current_city']}.')
