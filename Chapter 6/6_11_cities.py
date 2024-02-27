@@ -17,4 +17,4 @@ cities = {
 }
 
 for city, fact in cities.items():
-    print(f'{}')
+    print(f'\n{city} is located in {fact['country']} and is the home to {fact['population']} people.\n{fact['fact']}')
