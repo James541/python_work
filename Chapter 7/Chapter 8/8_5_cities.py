@@ -4,4 +4,3 @@ def describe_cities(name, country='the United States'):
 describe_cities('Portland')
 describe_cities('Chicago')
 describe_cities('Paris', 'France')
-
