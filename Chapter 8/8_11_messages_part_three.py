@@ -7,7 +7,6 @@ def show_messages(messages, printed_messages):
         print(current_message)
         printed_messages.append(current_message)
 
-
 show_messages(messages[:], printed_messages)
 
 print(messages)
