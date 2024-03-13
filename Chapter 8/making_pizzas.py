@@ -1,4 +1,4 @@
-import pizza_mods
+from pizza_mods import make_pizza
 
-pizza_mods.make_pizza('large', 'pepperoni')
-pizza_mods.make_pizza('large', 'pepperoni', 'black_olives', 'extra-cheese')
+make_pizza('large', 'pepperoni', 'black_olives', 'extra-cheese')
+make_pizza('large', 'pepperoni')
