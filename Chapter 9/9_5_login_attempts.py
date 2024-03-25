@@ -14,7 +14,7 @@ class Users:
         print(f'Welcome {self.name}! We hope that you enjoy your visit.')
 
     def increment_login_attempts(self):
-        self.login_attempts += 1cd des  
+        self.login_attempts += 1 
 
     def reset_login_attempts(self):
         self.login_attempts = 0
